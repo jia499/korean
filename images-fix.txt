@@ -1,0 +1,87 @@
+ЗУРГИЙН КОДЫН ЗАСВАР — korean repository
+
+Таны GitHub repository-д зургууд үндсэн хавтас (root) дээр байрлаж байна.
+Тиймээс src дотор assets/ гэж бичихгүй.
+
+index.html файлын 629–640-р мөрийн зурагтай хэсгийг доорх кодоор солино.
+Энэ нь зөвхөн зургийн HTML хэсэг; CSS/style, бусад мэдээлэл, хөдөлгөөнд хүрэхгүй.
+
+<article class="panel active" id="law1">
+  <div class="law-images">
+    <figure>
+      <img src="law-constitution.jpg" alt="Үндсэн хууль">
+      <figcaption>Үндсэн хууль</figcaption>
+    </figure>
+  </div>
+</article>
+
+<article class="panel" id="law2">
+  <div class="law-images">
+    <figure>
+      <img src="law-character-1.jpg" alt="Дүр эзэмших тухай хууль">
+      <figcaption>Дүр эзэмших тухай хууль · I</figcaption>
+    </figure>
+    <figure>
+      <img src="law-character-2.jpg" alt="Дүр эзэмших тухай хуулийн үргэлжлэл">
+      <figcaption>Дүр эзэмших тухай хууль · II</figcaption>
+    </figure>
+  </div>
+</article>
+
+<article class="panel" id="law3">
+  <div class="law-images">
+    <figure>
+      <img src="law-family-1.jpg" alt="Гэр бүлийн тухай хууль">
+      <figcaption>Гэр бүлийн тухай хууль · I</figcaption>
+    </figure>
+    <figure>
+      <img src="law-family-2.jpg" alt="Гэр бүлийн тухай хуулийн үргэлжлэл">
+      <figcaption>Гэр бүлийн тухай хууль · II</figcaption>
+    </figure>
+    <figure>
+      <img src="law-family-3.jpg" alt="Гэр бүлийн тухай хуулийн нэмэлт">
+      <figcaption>Гэр бүлийн тухай хууль · III</figcaption>
+    </figure>
+  </div>
+</article>
+
+<article class="panel" id="law4">
+  <div class="law-images">
+    <figure>
+      <img src="law-property-1.jpg" alt="Хөрөнгийн тухай хууль">
+      <figcaption>Хөрөнгийн тухай хууль · I</figcaption>
+    </figure>
+    <figure>
+      <img src="law-property-2.jpg" alt="Хөрөнгийн тухай хуулийн үргэлжлэл">
+      <figcaption>Хөрөнгийн тухай хууль · II</figcaption>
+    </figure>
+  </div>
+</article>
+
+<article class="panel" id="law5">
+  <div class="law-images">
+    <figure>
+      <img src="law-travel.jpg" alt="Гадаад айлчлалын журам">
+      <figcaption>Гадаад айлчлалын журам</figcaption>
+    </figure>
+  </div>
+</article>
+
+<article class="panel" id="law6">
+  <div class="law-images">
+    <figure>
+      <img src="law-health.jpg" alt="Эрүүл мэндийн тухай хууль">
+      <figcaption>Эрүүл мэндийн тухай хууль</figcaption>
+    </figure>
+  </div>
+</article>
+
+Мөн мөнгөн тэмдэгтийн зургийн мөрийг ингэж солино:
+
+<img class="coin" src="won-art.png" alt="Korean Won">
+
+АНХААР:
+- Зөвхөн index.html доторх дээрх зурагтай хэсгийг солино.
+- Файлын нэрийг том/жижиг үсэг, өргөтгөлтэй нь яг адил бичнэ.
+- GitHub-д зурагнууд index.html-тэй нэг түвшинд байгаа үед энэ зам зөв.
+- Дараа нь Commit changes хийнэ.
