@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="mn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#1a0c10">
+<title>Republic of Korea — Бүгд Найрамдах Солонгос Улс</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&family=Noto+Serif:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--wine:#4a111b;--wine2:#230d13;--wine3:#10090d;--gold:#d7b66c;--gold2:#f5dfa0;--cream:#f7edd7;--muted:#c9b99c;--line:rgba(218,184,111,.35);--panel:rgba(28,13,18,.84)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% 0%,#48232a 0,#211117 38%,#10090d 100%);color:var(--cream);font-family:"Noto Serif",Georgia,serif;min-height:100vh;overflow-x:hidden}
+#stars{position:fixed;inset:0;pointer-events:none;z-index:0;overflow:hidden}.star{position:absolute;width:2px;height:2px;border-radius:50%;background:#f5dfa0;box-shadow:0 0 7px 2px rgba(245,223,160,.55);animation:drift linear infinite;opacity:.65}.star.big{width:3px;height:3px;opacity:.85}@keyframes drift{0%{transform:translate3d(0,110vh,0) scale(.6);opacity:0}10%{opacity:.75}90%{opacity:.7}100%{transform:translate3d(45px,-15vh,0) scale(1.2);opacity:0}}
+.ambient{position:fixed;inset:0;z-index:0;pointer-events:none;background:radial-gradient(circle at 8% 20%,rgba(160,91,68,.11),transparent 25%),radial-gradient(circle at 92% 68%,rgba(204,160,83,.09),transparent 24%)}
+.site{position:relative;z-index:1;max-width:1120px;margin:auto;padding:18px 18px 70px}
+.topbar{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:12px 16px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(120deg,rgba(49,22,27,.94),rgba(13,10,13,.92));box-shadow:0 0 26px rgba(215,182,108,.08),inset 0 0 18px rgba(215,182,108,.04);position:sticky;top:10px;z-index:20;backdrop-filter:blur(16px)}
+.brand{display:flex;align-items:center;gap:12px;min-width:0}.seal{width:48px;height:48px;border-radius:50%;border:1px solid var(--gold);display:grid;place-items:center;background:radial-gradient(circle,#68422a,#211117 68%);box-shadow:0 0 15px rgba(215,182,108,.4);flex:none}.seal span{font-family:Cinzel,serif;font-size:28px;color:var(--gold2);animation:spin 7s linear infinite;text-shadow:0 0 12px #d7b66c}@keyframes spin{to{transform:rotate(360deg)}}.brandname{font-family:Cinzel,serif;letter-spacing:.12em;font-size:clamp(11px,2vw,17px);color:var(--gold2);white-space:nowrap}.brandname small{display:block;font-family:"Noto Serif",serif;font-size:10px;letter-spacing:.18em;color:var(--muted);margin-top:3px}
+.top-actions{display:flex;align-items:center;gap:8px}.sound,.menu-toggle{border:1px solid var(--line);color:var(--gold2);background:rgba(75,30,36,.55);border-radius:12px;padding:10px 13px;font-family:Cinzel,serif;cursor:pointer}.sound:hover,.menu-toggle:hover{box-shadow:0 0 15px rgba(215,182,108,.3)}
+.hero{text-align:center;padding:66px 14px 44px;position:relative}.orbit{width:180px;height:180px;border:1px solid rgba(221,190,123,.7);border-radius:50%;margin:0 auto 28px;display:grid;place-items:center;position:relative;box-shadow:0 0 35px rgba(215,182,108,.16),inset 0 0 25px rgba(215,182,108,.08);animation:breath 5s ease-in-out infinite}.orbit:before,.orbit:after{content:"";position:absolute;border:1px dashed rgba(221,190,123,.45);border-radius:50%;inset:-13px;animation:spin 28s linear infinite}.orbit:after{inset:12px;border-style:solid;opacity:.5;animation:spin 19s linear infinite reverse}@keyframes breath{50%{transform:scale(1.035);box-shadow:0 0 55px rgba(215,182,108,.25)}}.orbit-k{font-family:Cinzel,serif;font-size:76px;color:var(--gold2);text-shadow:0 0 12px #d6a85e,0 0 35px #a45a3b;animation:spin 10s linear infinite}.eyebrow{font-family:Cinzel,serif;letter-spacing:.28em;color:var(--gold);font-size:11px;text-transform:uppercase}.hero h1{font-family:Cinzel,serif;font-weight:500;font-size:clamp(34px,7vw,70px);letter-spacing:.09em;line-height:1.15;margin:14px 0 10px;color:#f5dfa0;text-shadow:0 0 12px rgba(219,181,102,.42),0 0 35px rgba(153,74,53,.5)}.hero p{max-width:680px;margin:0 auto;color:#d4c2a6;line-height:1.9;font-size:14px}.ornament{width:min(520px,80%);height:1px;margin:28px auto;background:linear-gradient(90deg,transparent,var(--gold),transparent);position:relative}.ornament:after{content:"✦";position:absolute;left:50%;top:-10px;transform:translateX(-50%);color:var(--gold);background:#211117;padding:0 12px}
+.quicknav{display:flex;justify-content:center;flex-wrap:wrap;gap:9px;margin:0 auto 34px}.quicknav button{border:1px solid var(--line);background:rgba(53,22,29,.72);color:var(--gold2);padding:10px 16px;border-radius:30px;font-family:"Noto Serif",serif;font-size:12px;cursor:pointer;transition:.3s}.quicknav button:hover{background:#6a2832;transform:translateY(-3px);box-shadow:0 0 18px rgba(215,182,108,.2)}
+.section-heading{text-align:center;margin:54px 0 18px}.section-heading span{font-family:Cinzel,serif;font-size:10px;letter-spacing:.35em;color:var(--gold)}.section-heading h2{font-family:Cinzel,serif;font-size:clamp(20px,4vw,30px);font-weight:500;letter-spacing:.1em;color:var(--gold2);margin:9px 0}.section-heading:after{content:"";display:block;width:110px;height:1px;background:var(--gold);margin:15px auto;box-shadow:0 0 9px var(--gold)}
+.group{margin:20px 0 34px;border:1px solid var(--line);border-radius:20px;background:linear-gradient(145deg,rgba(50,22,29,.84),rgba(16,10,14,.87));box-shadow:0 16px 45px rgba(0,0,0,.2),inset 0 0 25px rgba(215,182,108,.025);overflow:hidden}.group-title{padding:17px 20px;background:linear-gradient(90deg,rgba(117,49,49,.25),transparent);border-bottom:1px solid rgba(215,182,108,.18);font-family:Cinzel,serif;letter-spacing:.12em;color:var(--gold2);font-size:14px}.tabs{display:flex;gap:8px;flex-wrap:wrap;padding:14px 16px 0}.tab{position:relative;border:1px solid rgba(215,182,108,.3);border-radius:12px 12px 5px 5px;background:rgba(15,9,13,.55);color:#d9c8a8;padding:11px 14px;font-family:"Noto Serif",serif;font-size:12px;cursor:pointer;transition:all .28s}.tab:before{content:"";position:absolute;left:14px;right:14px;bottom:4px;height:1px;background:var(--gold);transform:scaleX(0);transition:.3s}.tab:hover,.tab.active{color:#fff0bd;border-color:rgba(238,202,126,.75);background:linear-gradient(135deg,rgba(120,48,53,.6),rgba(50,22,28,.7));box-shadow:0 0 16px rgba(215,182,108,.14);transform:translateY(-2px)}.tab.active:before{transform:scaleX(1)}
+.panels{padding:16px}.panel{display:none;animation:reveal .55s ease both}.panel.active{display:block}@keyframes reveal{from{opacity:0;transform:translateY(13px)}to{opacity:1;transform:translateY(0)}}.story{font-size:14px;line-height:2.05;color:#e7dbc4;white-space:pre-line}.story p{margin:0 0 12px}.story strong{color:var(--gold2)}.roster{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px}.person{border:1px solid rgba(215,182,108,.2);background:rgba(12,8,11,.36);border-radius:12px;padding:12px 14px;color:#e9d9b9;font-size:13px;line-height:1.7}.person b{color:var(--gold2);font-weight:600}.subhead{color:var(--gold);font-family:Cinzel,serif;font-size:12px;letter-spacing:.1em;margin:18px 0 9px}
+.law-images{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:14px}.law-images figure{margin:0;border:1px solid rgba(215,182,108,.32);border-radius:13px;padding:7px;background:#160d11;box-shadow:0 0 20px rgba(0,0,0,.22)}.law-images img{display:block;width:100%;height:auto;border-radius:8px;cursor:zoom-in;transition:.3s}.law-images img:hover{filter:brightness(1.08);transform:scale(1.012)}.law-images figcaption{font-size:11px;color:var(--muted);text-align:center;padding:8px 3px 2px}
+.city-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}.city-card{padding:18px;border:1px solid rgba(215,182,108,.23);border-radius:14px;background:linear-gradient(135deg,rgba(104,42,47,.22),rgba(15,9,13,.4))}.city-card h3{font-family:Cinzel,serif;color:var(--gold2);font-size:17px;margin:0 0 8px}.city-card p,.city-card li{font-size:13px;line-height:1.85;color:#dfd0b7}.city-card ul{padding-left:18px;margin:8px 0}
+.coin{display:block;width:min(560px,100%);margin:8px auto 20px;border-radius:18px;border:1px solid var(--line);box-shadow:0 0 35px rgba(215,182,108,.16)}
+.footer{text-align:center;padding:36px 12px 8px;color:#a99578;font-size:11px;letter-spacing:.12em}.footer .sig{font-family:Cinzel,serif;color:var(--gold);font-size:14px;margin-bottom:8px}
+.modal{position:fixed;inset:0;background:rgba(5,3,5,.92);z-index:100;display:none;align-items:center;justify-content:center;padding:18px}.modal.open{display:flex}.modal img{max-width:min(94vw,900px);max-height:92vh;object-fit:contain;border:1px solid var(--gold);border-radius:10px}.modal button{position:absolute;right:20px;top:18px;background:#391820;color:var(--gold2);border:1px solid var(--gold);border-radius:50%;width:42px;height:42px;font-size:22px}
+@media(max-width:650px){.site{padding:10px 10px 45px}.topbar{padding:9px 10px;top:5px}.seal{width:40px;height:40px}.brandname{font-size:10px;letter-spacing:.07em}.brandname small{font-size:8px}.sound{display:none}.hero{padding:48px 8px 30px}.orbit{width:145px;height:145px}.orbit-k{font-size:62px}.hero p{font-size:12px}.tabs{padding:10px 10px 0;gap:6px}.tab{font-size:11px;padding:9px 10px}.panels{padding:12px}.story{font-size:12px;line-height:1.95}.group-title{font-size:12px;padding:14px}.section-heading{margin:42px 0 14px}}
+</style>
+</head>
+<body>
+<div id="stars"></div><div class="ambient"></div>
+<div class="site">
+<header class="topbar">
+ <div class="brand"><div class="seal"><span>K</span></div><div class="brandname">REPUBLIC OF KOREA<small>БҮГД НАЙРАМДАХ СОЛОНГОС УЛС</small></div></div>
+ <div class="top-actions"><button class="sound" id="topBtn" onclick="window.scrollTo({top:0,behavior:'smooth'})">⌂ TOP</button><button class="menu-toggle" onclick="document.getElementById('navigation').scrollIntoView({behavior:'smooth'})">☰ ЦЭС</button></div>
+</header>
+<section class="hero" id="home">
+ <div class="orbit"><div class="orbit-k">K</div></div>
+ <div class="eyebrow">THE REPUBLIC · HERITAGE · HISTORY</div>
+ <h1>REPUBLIC<br>OF KOREA</h1>
+ <div class="ornament"></div>
+ <p>Түүх, угсаа залгамжлал, төрийн байгуулал, хууль ёс болон улсын нутаг дэвсгэрийн тухай албан ёсны мэдээллийн сан.</p>
+</section>
+<nav class="quicknav" id="navigation">
+ <button onclick="go('history')">Эртний түүх</button><button onclick="go('lineage')">Угсаа</button><button onclick="go('royals')">Хатад татвар</button><button onclick="go('state')">Төрийн бүтэц</button><button onclick="go('districts')">Дүүргүүд</button><button onclick="go('laws')">Хууль</button><button onclick="go('currency')">Мөнгөн тэмдэгт</button><button onclick="go('characters')">Дүр ашиглалт</button>
+</nav>
+
+<div class="section-heading" id="history"><span>CHAPTER I · THE BEGINNING</span><h2>ЭРТНИЙ ШАСТИР</h2></div>
+<section class="group">
+ <div class="group-title">ТҮҮХЭН ЗАМНАЛ · КИМ ОВОГООС КУРЁ УЛС ХҮРТЭЛ</div>
+ <div class="tabs">
+  <button class="tab active" data-group="history" data-panel="h1">Эртний шастирын эхлэл</button>
+  <button class="tab" data-group="history" data-panel="h2">Ким овогтийн түүх</button>
+  <button class="tab" data-group="history" data-panel="h3">Хун овогтийн үүсэл</button>
+  <button class="tab" data-group="history" data-panel="h4">Хун Суху хааны түүх</button>
+  <button class="tab" data-group="history" data-panel="h5">Хун Согхан хааны түүх</button>
+  <button class="tab" data-group="history" data-panel="h6">Бүгд Найрамдах Солонгос улс үүссэн нь</button>
+ </div>
+ <div class="panels">
+  <article class="panel active" id="h1"><div class="story"><strong>— Эртний шастирын эхлэл —</strong>
+Эрт урьдын цагт, хүн төрөлхтний түүхийн алс хязгаарт, өнөө цагийн газрын зурагт нэр нь сийлэгдэн үлдсэн нэгэн их гүрэн оршин тогтнож байжээ. Тэрхүү улс бол Тианши хэмээх, газар нутаг нь үлэмж уудам, цэрэг арми нь хүчирхэг, хаад язгууртнууд нь сүр жавхлантай хэмээн домогт өгүүлдэг Их Гүрэн байв.Тианши улсын хил хязгаар тэлж, хот суурин нь хөгжиж, олон овог аймаг нэгэн тугийн дор нэгдэн амар амгалан аж төрөх тэр цагт тус улсын нутагт нэгэн хүчирхэг овог оршин тогтнож байлаа.
+Тэр овог бол Ким овог.</div></article>
+  <article class="panel" id="h2"><div class="story">Ким овог нь зөвхөн тоо олноороо бус, эрх мэдэл, эд баялаг, газар нутаг, цэргийн хүчээрээ бусад овог аймгаас эрс ялгардаг байв. Өргөн уудам нутагт суурьшиж, өөрийн ёс заншил, уламжлал, дэг жаягаа чандлан сахиж, үеэс үед улам хүчирхэгжин ирсэн язгууртан угсааны овог байжээ.Тэдний тэргүүн нь Ким Ханна хэмээх эрхэмсэг эмэгтэй байв.Ким Ханна бол эгэл нэгэн язгууртан бус, Тианши улсын хааны ордонд “Бага Хатан” хэмээх өндөр хэргэмтэй нэгэн байлаа. Түүний нэр хааны ордонд хүндэтгэгдэж, Ким овгийн нэр Тианши улсын өнцөг булан бүрд хүч нөлөөгөө мэдрүүлж байв.Гэвч эрх мэдэл өндөр байх тусам атаа жөтөө, хардлага сэрдлэг дагалддаг ажээ.Тэр цагт Тианши улсын Их Хатан Киэнара Кристал болон Бага Хатан Ким Ханна нарын харилцаа улам бүр хурцдаж, ордны доторх үл ойлголцол эцэстээ эвлэршгүй дайсагналд хүрсэн гэдэг. Удалгүй Ким овгийг хааны ордны эсрэг хуйвалдсан, улсаасаа урван тэрсэлсэн хэмээн буруутгажээ.Үнэн нь юу байсныг өнөө цагт хэн ч хэлж үл чадна.Харин түүхэнд үлдсэн нь нэг л зүйл байв</div></article>
+  <article class="panel" id="h3"><div class="story">Ким овгийн эсрэг цаазын зарлиг буусан юм.Олон хүний хувь заяаг ганцхан зарлиг шийдэж, Ким овгийнхныг хүйтэн ирний өмнө аваачсан гэдэг. Үр хүүхэд, ахан дүүс, төрөл садан гээд үй олон хүн тэрхүү хар өдрийн золиос болжээ.Ким Ханна өөрөө ч хааны ордны хэргэм суудлаасаа бууж, амь нас, овгийнхоо үлдэгдлийг авран хамгаалах сонголтын өмнө тулгарсан байна.Тэрээр өөрийн хамгийн үнэнч дүү нар болон цөөн хэдэн итгэлт хүмүүсээ дагуулан Тианши улсын хилээс нууцаар гарч, алс холын зүгийг зорьжээ.Ингэж Ким Ханнагийн амьдралын нэгэн эрин төгсөж, харин өөр нэгэн түүхийн эхлэл тавигдсан юм. Тэд уулыг давж, гол мөрнийг гатлан, танихгүй газар нутгаар олон жил нүүдэллэн явжээ. Ард нь үлдсэн бүхнээ орхисон ч тэд нэг зүйлийг хэзээ ч орхиогүй билээ.Өвөг дээдсийнхээ нэр, цус, ёс заншил.Олон жилийн нүүдэл, тэмцэл, зовлон бэрхийг туулсны эцэст Ким Ханна болон түүний дүү нар шинэ нутагт суурьшиж, өөрсдийн овгийг дахин сэргээн байгуулжээ.Тэр овог нь Хун овог хэмээн нэрлэгдэв.</div></article>
+  <article class="panel" id="h4"><div class="story">Хун овог өдрөөс өдөрт хүчирхэгжин, эргэн тойрны овог аймгуудтай эв найрамдал тогтоож, өөрийн гэсэн нутаг дэвсгэр, захиргаа, хууль цаазтай болж эхэлжээ.Ийнхүү нэгэн цагт Тианши улсын ордноос хөөгдөн цөлөгдсөн мэт болсон хэсэг бүлэг хүмүүс өөрсдийн гараар шинэ улсын суурийг тавьж эхэлсэн байна.
+Тэр улс бол хожмын Курё байлаа.Хун овгийн тэргүүлэгчдийн дундаас төрөн гарсан Хун Сухухэмээх удирдагч улс орноо нэгэн тугийн дор нэгтгэж, Курё улсын анхны хаан хэмээн түүхэнд нэрээ үлдээжээ.Хун Суху хаан төр улсаа эмхлэн байгуулж, анхны хууль цаазыг тогтоон, төрийн захиргааны тогтолцоог бий болгож, өөрийн итгэлт хүмүүсээс сайд түшмэдийг томилон, хаан ширээ залгамжлах ханхүү нарын хэргэм зэргийг тогтоосон гэдэг. Түүний байгуулсан төрийн үндэс Курё улсын оршин тогтнох бат суурь болжээ.Харин түүний дараа хаан ширээнд Хун Согхан заларсан байна.</div></article>
+  <article class="panel" id="h5"><div class="story">Хун Согхан хаан өвөг дээдсийнхээ эхлүүлсэн үйл хэргийг үргэлжлүүлж, Курё улсын хил хязгаарыг улам тэлэн, цэрэг арми болон төрийн хүчийг бэхжүүлж, хөрш улс аймгуудтай дипломат харилцаа тогтоожээ.Ийнхүү урьд нь цөөн хэдэн дүрвэгчдийн эхлүүлсэн жижигхэн нутаг нэгэн цагт хүчирхэг хаант улс болон өргөжиж, олон овог аймаг Курёгийн тугийн дор дагаар орон нэгдсэн гэдэг.Курё улс улам хүчирхэгжихийн хэрээр хөрш орнууд ч түүний оршин тогтнолыг хүлээн зөвшөөрч, тусгаар тогтносон бүрэн эрхт улс хэмээн үзэх болжээ.Гэвч энэ бүхний цаана нэгэн эмэгтэйн хувь заяа, нэгэн овгийн цус, олон жилийн нүүдэл, тэмцэл, тэсвэр хатуужил нуугдаж байсан юм.Ким Ханнагийн эхлүүлсэн тэр зам Хун овгоор дамжин Курё улсыг бүтээж, Курёгийн суурь дээр дараагийн олон зуун жилийн түүх сүндэрлэн босжээ.</div></article>
+  <article class="panel" id="h6"><div class="story">Үе үеийн хаад солигдож, хил хязгаар тэлж, хот суурин хөгжиж, улс гүрнүүд мандан буурсаар…Гэвч тэр бүхний үндэс нь нэгэн цагт Тианши улсын алс хязгаараас амь тэмцэн гарсан цөөн хүмүүсийн тавьсан анхны чулуу байлаа.
+Тэр чулуу дээр Курё босож,
+Курёгийн түүхээс олон зуун жилийн туршид нэгэн үндэстний төр, соёл, өв уламжлал төлөвшин,эцэст нь өнөө цагийн “Бүгд Найрамдах Солонгос Улс” хэмээх улсын түүхэн замналын нэгэн домогт эх сурвалж болон үлджээ.Ийнхүү нэгэн овгийн цөллөгөөс нэгэн улсын мандалт эхэлсэн билээ.</div></article>
+ </div>
+</section>
+
+<div class="section-heading" id="lineage"><span>CHAPTER II · ROYAL LINEAGE</span><h2>УГСАА ЗАЛГАМЖЛАЛ</h2></div>
+<section class="group"><div class="group-title">ХААНТ УЛСЫН ҮЕ, УГСАА ГАРВАЛ</div>
+ <div class="tabs"><button class="tab active" data-group="lineage" data-panel="l1">Хун Суху хааны үе</button><button class="tab" data-group="lineage" data-panel="l2">Хун Согхан хааны үе</button></div>
+ <div class="panels">
+  <article class="panel active" id="l1"><div class="story"><div class="subhead">ҮҮСГЭН БАЙГУУЛАГЧ</div><div class="person"><b>Ханна</b> — Хун овогтын гишүүд, үндэслэгч нар.</div><div class="subhead">АНХНЫ ХААН</div><div class="person"><b>Хун Суху</b></div><div class="subhead">СУХУ ХААНЫ ҮЕИЙН ХАНХҮҮ, ГҮНЖ НАР</div><div class="roster"><div class="person">Хун Жансу — Тэргүүн Ханхүү</div><div class="person">Хун Сэжүн — Их Ханхүү</div><div class="person">Хун Лукас — 1-р ханхүү</div><div class="person">Хун Чонжу — Отгон ханхүү</div><div class="person">Хун Сөжү</div><div class="person">Хун Сэкинэ — Тэргүүн гүнж</div><div class="person">Хун Согёон — Отгон гүнж</div></div><div class="subhead">СУХУ ХААНЫ ҮЕИЙН САЙД НАР</div><div class="person">Мик Лио — Тэргүүн сайд</div></div></article>
+  <article class="panel" id="l2"><div class="story"><div class="subhead">ЗАЛГАМЖЛАГЧ ХААН</div><div class="person"><b>Хун Согхан / Хун Сэжүн</b></div><div class="subhead">ХУН СОГХАН ХААНЫ ҮЕИЙН ХАНХҮҮ, ГҮНЖ НАР</div><div class="roster"><div class="person">Хун Лукас — Тэргүүн ханхүү</div><div class="person">Хун Чонжу — Их ханхүү</div><div class="person">Хун Суху — Төмөр ханхүү</div><div class="person">Хун Лицуй — Тэргүүн гүнж / Өргөмөл /</div><div class="person">Хун Согёон — Отгон гүнж</div></div></div></article>
+ </div>
+</section>
+<div class="section-heading" id="royals"><span>CHAPTER III · ROYAL CONSORTS</span><h2>ХАТАД, ТАТВАР</h2></div>
+<section class="group"><div class="group-title">ХААНЫ ОРДНЫ ХАТАД, ТАТВАРЫН БҮРТГЭЛ</div><div class="tabs"><button class="tab active" data-group="royals" data-panel="r1">Хун Суху хааны хатан</button><button class="tab" data-group="royals" data-panel="r2">Хун Согхан хааны хатад, татвар</button></div><div class="panels">
+<article class="panel active" id="r1"><div class="story">Хун Суху хаан нь ганц хатантай байсан ба тэр нь Мик овгоос гаралтай авхай байсан билээ. Тэрхүү сэтгэл татсан бүсгүй нь <strong>“Мик ЛилиАнна”</strong>.</div></article>
+<article class="panel" id="r2"><div class="roster"><div class="person">Сео Минсүки — Их хатан</div><div class="person">Мик Рүби — Бага хатан</div><div class="person">Сео Ружэ — Их татвар</div><div class="person">Күвэл-Хио Суми — Бага татвар</div></div></article>
+</div></section>
+
+<div class="section-heading" id="state"><span>CHAPTER IV · GOVERNMENT</span><h2>БҮГД НАЙРАМДАХ СОЛОНГОС УЛС</h2></div>
+<section class="group"><div class="group-title">ТӨРИЙН БҮТЭЦ, УДИРДЛАГА</div><div class="tabs"><button class="tab active" data-group="state" data-panel="s1">Улсын өөрөө удирдах зөвлөлийн гишүүд</button><button class="tab" data-group="state" data-panel="s2">Төрийн байгууллагуудын удирдлага, дарга</button></div><div class="panels">
+<article class="panel active" id="s1"><div class="roster"><div class="person">Тэргүүн сайд — <b>Кристал Вараха</b></div><div class="person">Ерөнхий сайд — Хан Сокжин</div><div class="person">Шадар сайд — Кан Ёнрун</div><div class="person">Шадар сайд — Ким Ёнлян</div><div class="person">Зөвлөлийн дарга — Хун Согхан</div><div class="person">Зөвлөлийн дарга — И Саяон</div><div class="person">Төрийн түшээ — Ли Кихо</div><div class="person">Төрийн түшээ — Жүүн</div><div class="person">Төрийн түшээ — Вараха Ци</div><div class="person">Төрийн түшээ — Вараха Жиа</div><div class="person">Ерөнхий нарийн бичгийн дарга — Хан Со’Рана</div></div></article>
+<article class="panel" id="s2"><div class="city-grid">
+<div class="city-card"><h3>Сөүл Ду Төв эмнэлэг</h3><p>Ерөнхий захирал — Квон Жи’Ён<br>Орлогч захирал — Вараха Кармен</p></div>
+<div class="city-card"><h3>KNF Цагдаагийн ерөнхий газар</h3><p>Ерөнхий дарга — Жүүн</p></div>
+<div class="city-card"><h3>ES Энтэртаймент</h3><p>Ерөнхий захирал — Энгфа</p></div>
+<div class="city-card"><h3>GH Капитал</h3><p>Ерөнхий захирал — Вараха Кристал</p></div>
+<div class="city-card"><h3>Харилцаа хэргийн яам</h3><p>Ерөнхий захирал — Кан Ёнрун</p></div>
+<div class="city-card"><h3>Аура үндэсний Телевиз</h3><p>Ерөнхий захирал — Кан Ёнрун</p></div>
+</div></article></div></section>
+
+<div class="section-heading" id="districts"><span>CHAPTER V · DISTRICTS</span><h2>СОЛОНГОС УЛСЫН ХОЁР ДҮҮРЭГ</h2></div>
+<section class="group"><div class="group-title">ХОТ, ДҮҮРГИЙН ТАНИЛЦУУЛГА</div><div class="tabs"><button class="tab active" data-group="districts" data-panel="d1">Инчон дүүрэг</button><button class="tab" data-group="districts" data-panel="d2">Ганнам дүүрэг</button></div><div class="panels">
+<article class="panel active" id="d1"><div class="city-card"><h3>ИНЧОН ХОТ — INCHEON CITY</h3><p>Инчон хот нь улсын баруун бүсэд байрлах худалдаа, үйлдвэрлэл, соёл урлаг, аялал жуулчлалын чухал төв юм. Тус хот нь олон улсын харилцаа, эдийн засгийн хөгжил, иргэдийн амьдралын чанарыг эрхэмлэн, орчин үеийн хот байгуулалтын бодлогыг хэрэгжүүлнэ.</p><div class="subhead">ТУС ХОТЫН ХАРЬЯАНД</div><ul><li>Улсын Их Дэлгүүр</li><li>Seoul-Du эмнэлэг</li><li>Харилцаа холбооны яам</li><li>ES Entertainment</li><li>Инчоны олон улсын боомт</li><li>Соёл урлагийн төв</li></ul><p><b>Албан ёсны уриа:</b> Incheon — Gateway to the Future.</p><div class="subhead">ИНЧОНЫ ЭДИЙН ЗАСАГ, ХӨГЖИЛ</div><p>Инчон нь дараах салбаруудаар хөгжсөн:</p><ul><li>Олон улсын худалдаа</li><li>Нисэх болон агаарын тээвэр</li><li>Боомт, далайн тээвэр</li><li>Биотехнологи, эрүүл мэндийн үйлдвэрлэл</li><li>Гоо сайхан, технологи</li><li>Санхүү, аялал жуулчлал</li></ul><p>Инчоны чөлөөт эдийн засгийн бүс нь Сонгдо, Ёнжон, Чонна гэсэн гурван гол бүсийг хамардаг.</p></div></article>
+<article class="panel" id="d2"><div class="city-card"><h3>GANGNAM — THE CAPITAL DISTRICT</h3><p>Ганнам нь улсын улс төр, эдийн засаг, санхүү, дипломат харилцаа, соёл урлагийн төв бүс болно.</p><div class="subhead">ТУС БҮСЭД ДАРААХ БАЙГУУЛЛАГУУД БАЙРЛАНА</div><ul><li>Улсын Цагаан ордон</li><li>Улсын Өөрөө удирдах Зөвлөл</li><li>Улсын Засгийн газар</li><li>GH CAPITAL банк</li><li>Улсын Брэнд Их Дэлгүүр</li><li>Төв цэцэрлэгт хүрээлэн</li><li>Чон-А урлагийн академи</li><li>Улсын соёл, урлагийн төв</li></ul><p><b>Албан ёсны уриа:</b> GANGNAM — THE HEART OF THE NATION.</p><div class="subhead">ГАННАМЫН ЭДИЙН ЗАСАГ, ХӨГЖИЛ</div><ul><li>Санхүү: Банк, хөрөнгө оруулалт, бизнесийн байгууллагууд.</li><li>Загвар: Олон улсын luxury брэндүүд, загварын орднууд.</li><li>Гоо сайхан: Солонгосын K-Beauty үйлдвэрлэл, гоо сайхны салбар.</li><li>Энтертайнмент: K-pop агентлаг, хөгжмийн үйлдвэрлэл.</li><li>Технологи: Мэдээллийн технологи, стартап компаниуд.</li><li>Олон улсын харилцаа: Хурал, үзэсгэлэн, бизнесийн арга хэмжээ.</li></ul></div></article>
+</div></section>
+
+<div class="section-heading" id="laws"><span>CHAPTER VI · LAWS & REGULATIONS</span><h2>СОЛОНГОС УЛСЫН ХУУЛЬ</h2></div>
+<section class="group"><div class="group-title">ХУУЛЬ, ЖУРМЫН БАРИМТ БИЧГҮҮД · ЗУРГИЙГ ДАРЖ ТОМРУУЛНА</div><div class="tabs">
+<button class="tab active" data-group="laws" data-panel="law1">Үндсэн хууль</button><button class="tab" data-group="laws" data-panel="law2">Дүр эзэмших тухай хууль</button><button class="tab" data-group="laws" data-panel="law3">Гэр бүлийн тухай хууль</button><button class="tab" data-group="laws" data-panel="law4">Хөрөнгийн тухай хууль</button><button class="tab" data-group="laws" data-panel="law5">Гадаад айлчлалын журам</button><button class="tab" data-group="laws" data-panel="law6">Эрүүл мэндийн тухай хууль</button>
+</div><div class="panels">
+<article class="panel active" id="law1"><div class="law-images"><figure><img src="assets/constitution-1.jpeg" alt="Үндсэн хууль"><figcaption>Үндсэн хууль</figcaption></figure></div></article>
+<article class="panel" id="law2"><div class="law-images"><figure><img src="assets/role-law-1.jpeg" alt="Дүр эзэмших тухай хууль"><figcaption>Дүр эзэмших тухай хууль · I</figcaption></figure><figure><img src="assets/role-law-2.jpeg" alt="Дүр эзэмших тухай хуулийн үргэлжлэл"><figcaption>Дүр эзэмших тухай хууль · II</figcaption></figure></div></article>
+<article class="panel" id="law3"><div class="law-images"><figure><img src="assets/family-law-1.jpeg" alt="Гэр бүлийн тухай хууль"><figcaption>Гэр бүлийн тухай хууль · I</figcaption></figure><figure><img src="assets/family-law-2.jpeg" alt="Гэр бүлийн тухай хуулийн үргэлжлэл"><figcaption>Гэр бүлийн тухай хууль · II</figcaption></figure></div></article>
+<article class="panel" id="law4"><div class="law-images"><figure><img src="assets/property-law-1.jpeg" alt="Хөрөнгийн тухай хууль"><figcaption>Хөрөнгийн тухай хууль · I</figcaption></figure><figure><img src="assets/property-law-2.jpeg" alt="Хөрөнгийн тухай хуулийн үргэлжлэл"><figcaption>Хөрөнгийн тухай хууль · II</figcaption></figure></div></article>
+<article class="panel" id="law5"><div class="law-images"><figure><img src="assets/travel-rules.jpeg" alt="Гадаад айлчлалын журам"><figcaption>Гадаад айлчлалын журам</figcaption></figure></div></article>
+<article class="panel" id="law6"><div class="law-images"><figure><img src="assets/health-law.jpeg" alt="Эрүүл мэндийн тухай хууль"><figcaption>Эрүүл мэндийн тухай хууль</figcaption></figure></div></article>
+</div></section>
+
+<div class="section-heading" id="currency"><span>CHAPTER VII · CURRENCY</span><h2>СОЛОНГОС УЛСЫН МӨНГӨН ТЭМДЭГТ</h2></div>
+<section class="group"><div class="group-title">ҮНДЭСНИЙ МӨНГӨН НЭГЖ</div><div class="panels" style="display:block"><article class="panel active"><img class="coin" src="assets/korean-won.svg" alt="Korean Won"><div class="story" style="text-align:center"><strong>₩ WON — ВОН</strong><br>Бүгд Найрамдах Солонгос Улсын мөнгөн тэмдэгт.</div></article></div></section>
+
+<div class="section-heading" id="characters"><span>CHAPTER VIII · CHARACTER POLICY</span><h2>НУТАГ ДЭВСГЭРТ АШИГЛАХ ДҮРҮҮД</h2></div>
+<section class="group"><div class="group-title">БҮГД НАЙРАМДАХ СОЛОНГОС УЛСЫН НУТАГ ДЭВСГЭР ДЭЭР АШИГЛАЖ БОЛОХ ДҮРҮҮД</div><div class="panels" style="display:block"><div class="roster"><div class="person">✦ <b>Солонгос үндэс угсаатай дүр</b></div><div class="person">✦ <b>Тайланд үндэс угсаатай дүр</b></div><div class="person">✦ <b>Солонгос гаралтай орчин үеийн манхва дүр</b></div></div></div></section>
+<footer class="footer"><div class="sig">REPUBLIC OF KOREA</div>HISTORY · HERITAGE · UNITY<br>© БҮГД НАЙРАМДАХ СОЛОНГОС УЛС</footer>
+</div>
+<div class="modal" id="imageModal" onclick="closeModal()"><button aria-label="Close" onclick="closeModal()">×</button><img id="modalImage" src="" alt="Томруулсан хууль"></div>
+<script>
+(function(){
+ const layer=document.getElementById('stars');
+ for(let i=0;i<75;i++){const s=document.createElement('i');s.className='star'+(i%9===0?' big':'');s.style.left=Math.random()*100+'%';s.style.animationDuration=(13+Math.random()*24)+'s';s.style.animationDelay=(-Math.random()*35)+'s';s.style.opacity=(.25+Math.random()*.65);layer.appendChild(s)}
+})();
+document.querySelectorAll('.tab').forEach(btn=>btn.addEventListener('click',()=>{
+ const group=btn.dataset.group, id=btn.dataset.panel;
+ document.querySelectorAll('.tab[data-group="'+group+'"]').forEach(x=>x.classList.toggle('active',x===btn));
+ const container=btn.closest('.group');
+ container.querySelectorAll('.panel').forEach(x=>x.classList.toggle('active',x.id===id));
+}));
+function go(id){document.getElementById(id).scrollIntoView({behavior:'smooth',block:'start'})}
+document.querySelectorAll('.law-images img').forEach(img=>img.addEventListener('click',()=>{document.getElementById('modalImage').src=img.src;document.getElementById('imageModal').classList.add('open')}));
+function closeModal(){document.getElementById('imageModal').classList.remove('open')}
+window.closeModal=closeModal;window.go=go;
+</script>
+</body></html>
